@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="display.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <h1 style="background-color:skyblue">Student details</h1>
+    
+    <h3>Student roll:</h3>
+    <p th:text="${student.roll}"></p>
+    
+    <h3>Student name:</h3>
+    <p th:text="${student.name}"></p>
+    
+    <h3>Student branch:</h3>
+    <p th:text="${student.branch}"></p>
+    
+    <h3>Student yop:</h3>
+    <p th:text="${student.yop}"></p>
+    
+    <h3>Student cgpa:</h3>
+    <p th:text="${student.cgpa}"></p>
+</body>
+</html>

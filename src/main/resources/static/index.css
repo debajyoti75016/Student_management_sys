@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(135, 206, 250, 0.9); /* Light sky blue with slight transparency */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 10; /* Ensure header is above other content */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: serif;
+}
+
+/* Navigation styles */
+nav {
+    background: rgba(0, 0, 0, 0.9); /* Slightly transparent white */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for separation */
+    z-index: 10; /* Ensure nav is above other content */
+    position: relative;
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    background-color: #36c43b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+/* Main content styles */
+main {
+    padding: 0; /* Remove default padding */
+    position: relative; /* Ensure main content appears below header and nav */
+    z-index: 1;
+}
+
+.container_2 {
+    height: calc(110vh - 1px); /* Adjust based on header and nav height */
+    width: 100%;
+    background: url('education.webp') no-repeat center center;
+
+    /* Replace with a direct image URL */
+    background-size: cover;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_2 p {
+    color: white;
+    font-size: 1.2em;
+    background: rgba(36, 35, 35, 0.5); /* Optional: dark background for better text readability */
+    padding: 20px;
+    border-radius: 5px;
+    font-family: serif;
+}
+
+/* Container styles */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ceb3ea ; /* Light grey background for a clean look */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space between heading and table */
+    font-size: 24px;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    max-width: 1000px; /* Set a max-width for better layout control */
+    border-collapse: collapse; /* Collapse table borders for a cleaner look */
+    margin: 0 auto; /* Center the table within the container */
+    background: #ffffff; /* White background for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the table */
+}
+
+thead {
+    background-color: #007bff; /* Blue background color for the table header */
+    color: white; /* White text color for contrast */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light grey border for table rows */
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color for readability */
+}
+
+tbody tr:hover {
+    background-color: #eaeaea; /* Light grey background on hover for rows */
+}

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87ecbb ; /* Light grey background for a clean look */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    flex-direction: column; /* Center content vertically */
+}
+
+h1 {
+    background-color: #87CEEB; /* Sky blue background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+    margin: 0 0 20px 0; /* Margin below the heading */
+    width: 100%; /* Make the heading take full width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for heading */
+}
+
+h3 {
+    color: #333; /* Dark color for headings */
+    margin: 10px 0; /* Margin around headings */
+    font-size: 18px; /* Slightly larger font size for better readability */
+}
+
+p {
+    color: #555; /* Slightly lighter color for paragraph text */
+    font-size: 16px; /* Font size for paragraphs */
+    margin: 0 0 20px 0; /* Margin below paragraphs */
+    padding: 10px;
+    border-radius: 4px; /* Rounded corners for paragraphs */
+    background-color: #fff; /* White background for better readability */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for paragraphs */
+    width: 100%; /* Ensure paragraphs take full width */
+    max-width: 600px; /* Limit width for better readability */
+    text-align: left; /* Align text to the left */
+}

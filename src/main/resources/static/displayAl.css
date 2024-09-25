@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #87ecbb ; /* Light grey background for a clean look */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+ 
+}
+
+h1 {
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+    margin: 0;
+    width: 100%; /* Full width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    font-size: 24px; /* Font size for heading */
+}
+
+table {
+    width: 90%;
+    max-width: 1200px; /* Maximum width for larger screens */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px; /* Space between heading and table */
+    background-color: #fff; /* White background for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for the table */
+}
+
+thead {
+    background-color: #4CAF50; /* Green background color for the header */
+    color: #fff; /* White text color */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light grey border for rows */
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+tbody tr:hover {
+    background-color: #eaeaea; /* Light grey background on hover */
+}
